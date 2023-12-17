@@ -18,13 +18,14 @@ ul {
 
 .container {
   padding: 20px;
+  background-color: rgb(218, 248, 230);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 2% 10%;
   background-color: #f6f6f6;
   box-shadow: 5px 2px 30px 5px rgba(0, 0, 0, 0.2);
 }
@@ -43,27 +44,29 @@ nav {
 .nav-links ul li a:hover {
   color: #07a9f9;
 }
-.banner{
+/* banner css start  */
+.banner {
   display: grid;
   grid-template-columns: 9fr 3fr;
   align-items: center;
   height: 80vh;
+  padding: 0% 10%;
   /* border: 5px solid red; */
 }
 
-.intro{
+.intro {
   font-weight: 400;
   font-size: 40px;
   color: #1e465e;
 }
 
-.name{
+.name {
   font-weight: 700;
   font-size: 50px;
   color: #01395b;
 }
 
-.resume{
+.resume {
   padding: 15px 25px;
   border-radius: 10px;
   border: none;
@@ -74,9 +77,39 @@ nav {
   margin-top: 30px;
 }
 
-.resume:hover{
+.resume:hover {
   background-color: rgb(5, 249, 249);
   cursor: pointer;
   transform: scale(1.05);
   transition: 0.2s;
 }
+/* banner css end  */
+
+/* about css start  */
+.about {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  align-items: center;
+  height: 100vh;
+  padding: 0% 10%;
+}
+.about-img img {
+  border-radius: 50%;
+  background-color: rgb(248, 240, 230);
+  height: 300px;
+  width: 300px;
+}
+
+.about-content h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #316281;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  font-size: 18px;
+  border-left: 2px solid #a4b6ac;
+  padding-left: 15px;
+}
+/* about css end */
